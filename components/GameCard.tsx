@@ -17,7 +17,9 @@ export function GameCard({ game }: GameCardProps): JSX.Element {
             height: 150,
           }}
         />
-        <Text style={styles.title}>{game.title}</Text>
+        <Text style={styles.title} className="bg-red-100">
+          {game.title}23
+        </Text>
         <Text style={styles.score}>{game.score}</Text>
         <Text style={styles.description} numberOfLines={3}>
           {game.description}
