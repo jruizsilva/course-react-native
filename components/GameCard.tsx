@@ -9,7 +9,7 @@ interface GameCardProps {
 export function GameCard({ game }: GameCardProps): JSX.Element {
   return (
     <>
-      <View style={styles.container}>
+      <View style={styles.container} className="flex-row">
         <Image
           source={{
             uri: game.image,
@@ -17,13 +17,13 @@ export function GameCard({ game }: GameCardProps): JSX.Element {
             height: 150,
           }}
         />
-        <Text style={styles.title} className="bg-red-100">
-          {game.title}23
-        </Text>
-        <Text style={styles.score}>{game.score}</Text>
-        <Text style={styles.description} numberOfLines={3}>
-          {game.description}
-        </Text>
+        <View className="pl-3 flex-1">
+          <Text style={styles.title}>{game.title}</Text>
+          <Text style={styles.score}>{game.score}</Text>
+          <Text style={styles.description} numberOfLines={3}>
+            {game.description}
+          </Text>
+        </View>
       </View>
     </>
   );
