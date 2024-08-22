@@ -1,10 +1,14 @@
 import { Slot } from "expo-router";
-import { View } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function MainLayout() {
   return (
-    <View className="mt-32">
-      <Slot />
-    </View>
+    <>
+      <StatusBar style="light" />
+      <SafeAreaView className="bg-black flex-1">
+        <Slot />
+      </SafeAreaView>
+    </>
   );
 }

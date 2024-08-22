@@ -1,6 +1,14 @@
-import { Animated, Image, StyleSheet, Text, View } from "react-native";
+import {
+  Animated,
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import { Game } from "../types/game";
 import { useEffect, useRef } from "react";
+import { Link } from "expo-router";
 
 interface GameCardProps {
   game: Game;
@@ -9,22 +17,28 @@ interface GameCardProps {
 export function GameCard({ game }: GameCardProps): JSX.Element {
   return (
     <>
-      <View style={styles.container} className="flex-row">
-        <Image
-          source={{
-            uri: game.image,
-            width: 150,
-            height: 150,
-          }}
-        />
-        <View className="pl-3 flex-1">
-          <Text style={styles.title}>{game.title}</Text>
-          <Text style={styles.score}>{game.score}</Text>
-          <Text style={styles.description} numberOfLines={3}>
-            {game.description}
-          </Text>
-        </View>
-      </View>
+      <Link
+        href={{ pathname: "/games/[slug]", params: { slug: game.slug } }}
+        className="mb-6"
+        asChild
+      >
+        <Pressable className="flex-row">
+          <Image
+            source={{
+              uri: game.image,
+              width: 150,
+              height: 150,
+            }}
+          />
+          <View className="pl-3 flex-1">
+            <Text style={styles.title}>{game.title}</Text>
+            <Text style={styles.score}>{game.score}</Text>
+            <Text style={styles.description} numberOfLines={3}>
+              {game.description}
+            </Text>
+          </View>
+        </Pressable>
+      </Link>
     </>
   );
 }
