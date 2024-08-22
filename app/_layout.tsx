@@ -6,8 +6,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function MainLayout() {
   return (
     <>
+      <StatusBar style="light" />
       <View className="bg-black flex-1">
-        <StatusBar style="light" />
         <SafeAreaView>
           <Slot />
         </SafeAreaView>
