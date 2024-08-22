@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "data": {
+        "item": {
+          "id": 1300001928,
+          "type": "game-title",
+          "typeId": 13,
+          "title": "SoulCalibur",
+          "slug": "soulcalibur",
+          "mustPlay": true,
+          "premiereYear": 1999,
+          "description": "[Xbox Live Arcade]  Soulcalibur, the highest Metascoring game on the Dreamcast, has returned to the next generation. Sharpen your blades as you relive old grudges against classic adversaries in new high definition graphics. Prove your mettle against the world with a variety of leaderboards spanning every character and mode, or challenge a friend in local-play Versus mode. Nineteen playable characters: All of your favorite fighters are back including Kilik, Ivy, Siegfried, Edge Master, Nightmare, and many more. Eight modes of play: Try the different game modes including Story, Versus, and even Museum Mode that allows players to view artwork, character models, and animations. Leaderboards galore: Compare stats in sixty leaderboards spanning across each character and mode. High definition support: Soulcalibur has been given a whole new coat of beautiful paint to support HD resolutions up to 1080p. [Namco Bandai Games]",
+          "platform": "Dreamcast",
+          "criticScoreSummary": {
+            "url": "/game/soulcalibur/critic-reviews/",
+            "max": 100,
+            "score": 98,
+            "normalizedScore": 97.6,
+            "reviewCount": 24,
+            "positiveCount": 24,
+            "neutralCount": 0,
+            "negativeCount": 0,
+            "sentiment": "Universal acclaim"
+          },
+          "releaseDate": "1999-09-08",
+          "releaseDateText": "1999-09-08",
+          "production": {
+            "companies": [
+              {
+                "id": 4010000267,
+                "typeId": 1,
+                "typeName": "Developer",
+                "name": "Namco",
+                "url": "/company/namco/"
+              },
+              {
+                "id": 4010000267,
+                "typeId": 2,
+                "typeName": "Publisher",
+                "name": "Namco",
+                "url": "/company/namco/"
+              }
+            ],
+            "officialSite": null,
+            "crew": []
+          },
+          "images": [
+            {
+              "id": "6-1-7379-13",
+              "filename": "6-1-7379-13.jpg",
+              "dateCreated": {
+                "date": null,
+                "timezone": null
+              },
+              "alt": null,
+              "credits": null,
+              "path": null,
+              "cropGravity": null,
+              "crop": null,
+              "caption": null,
+              "typeName": "mainImage",
+              "imageUrl": null,
+              "width": 640,
+              "height": 642,
+              "sType": null,
+              "bucketType": "catalog",
+              "bucketPath": "/provider/6/3/6-1-7379-13.jpg",
+              "mediaType": null,
+              "provider": "6"
+            },
+            {
+              "id": "6-1-7379-13",
+              "filename": "6-1-7379-13.jpg",
+              "dateCreated": {
+                "date": null,
+                "timezone": null
+              },
+              "alt": null,
+              "credits": null,
+              "path": null,
+              "cropGravity": null,
+              "crop": null,
+              "caption": null,
+              "typeName": "cardImage",
+              "imageUrl": null,
+              "width": 640,
+              "height": 642,
+              "sType": null,
+              "bucketType": "catalog",
+              "bucketPath": "/provider/6/3/6-1-7379-13.jpg",
+              "mediaType": null,
+              "provider": "6"
+            }
+          ],
+          "video": null,
+          "genres": [
+            {
+              "id": 2300001910,
+              "name": "3D Fighting"
+            }
+          ],
+          "rating": "T",
+          "countries": [
+            "Japan",
+            "North America",
+            "Europe",
+            "Australia",
+            "Korea"
+          ],
+          "platforms": [
+            {
+              "id": 1500000067,
+              "name": "Dreamcast",
+              "criticScoreSummary": {
+                "url": "/game/soulcalibur/critic-reviews/?platform=dreamcast",
+                "max": 100,
+                "score": 98,
+                "normalizedScore": 97.6,
+                "reviewCount": 24,
+                "positiveCount": 24,
+                "neutralCount": 0,
+                "negativeCount": 0,
+                "sentiment": "Universal acclaim"
+              },
+              "relatedGameId": 1400003143,
+              "isLeadPlatform": true,
+              "releaseDate": "1999-09-08",
+              "slug": "dreamcast"
+            },
+            {
+              "id": 1500000112,
+              "name": "iOS (iPhone/iPad)",
+              "criticScoreSummary": {
+                "url": "/game/soulcalibur/critic-reviews/?platform=ios-iphoneipad",
+                "max": 100,
+                "score": 73,
+                "normalizedScore": 73.3214,
+                "reviewCount": 18,
+                "positiveCount": 11,
+                "neutralCount": 7,
+                "negativeCount": 0,
+                "sentiment": "Mixed or average"
+              },
+              "relatedGameId": 1400003145,
+              "isLeadPlatform": false,
+              "releaseDate": "2012-01-19",
+              "slug": "ios-iphoneipad"
+            },
+            {
+              "id": 1500000111,
+              "name": "Xbox 360",
+              "criticScoreSummary": {
+                "url": "/game/soulcalibur/critic-reviews/?platform=xbox-360",
+                "max": 100,
+                "score": 79,
+                "normalizedScore": 79.2813,
+                "reviewCount": 19,
+                "positiveCount": 17,
+                "neutralCount": 1,
+                "negativeCount": 1,
+                "sentiment": "Generally favorable"
+              },
+              "relatedGameId": 1400050090,
+              "isLeadPlatform": false,
+              "releaseDate": "2008-07-02",
+              "slug": "xbox-360"
+            }
+          ],
+          "gameTaxonomy": {
+            "franchises": [
+              {
+                "id": 1100000382,
+                "name": "SoulCalibur"
+              }
+            ],
+            "family": {
+              "id": 1200001910,
+              "name": "SoulCalibur"
+            },
+            "title": {
+              "id": 1300001928,
+              "name": "SoulCalibur"
+            },
+            "game": {
+              "id": 1400003143,
+              "name": "SoulCalibur"
+            },
+            "platform": {
+              "id": 1500000067,
+              "name": "Dreamcast"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
