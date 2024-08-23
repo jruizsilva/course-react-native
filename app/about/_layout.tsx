@@ -1,10 +1,10 @@
 import { Slot } from "expo-router";
-import { View } from "react-native";
+import Screen from "../../components/Screen";
 
 export default function AboutLayout() {
   return (
-    <View className="bg-slate-400 ">
+    <Screen className="p-5">
       <Slot />
-    </View>
+    </Screen>
   );
 }

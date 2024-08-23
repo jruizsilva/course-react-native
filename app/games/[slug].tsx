@@ -8,6 +8,7 @@ import {
   View,
 } from "react-native";
 import { useFetchGameBySlug } from "../../hook/useFetchGameBySlug";
+import Screen from "../../components/Screen";
 
 interface Props {}
 
@@ -17,7 +18,7 @@ export default function GameDetails(_props: Props): JSX.Element {
   console.log(game);
   return (
     <>
-      <View className="px-4">
+      <Screen className="px-4">
         <Link href={"/"} asChild>
           <Pressable>
             <Text className="text-white">Volver al inicio</Text>
@@ -45,7 +46,7 @@ export default function GameDetails(_props: Props): JSX.Element {
             </View>
           </>
         )}
-      </View>
+      </Screen>
     </>
   );
 }
